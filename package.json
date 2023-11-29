@@ -1,0 +1,17 @@
+{
+  "name": "hello_world",
+  "version": "0.0.0",
+  "description": "Node.js Addons Example #1",
+  "main": "hello.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.5.0",
+    "node-addon-api": "^7.0.0",
+    "clang-format": "^1.4.0"
+  },
+  "scripts": {
+    "test": "node hello.js",
+    "format": "clang-format  -i --glob=*/**/*.{h,cpp,cc}"
+  },
+  "gypfile": true
+}

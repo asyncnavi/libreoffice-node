@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "LINUX",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/navraj/.cache/node-gyp/18.17.1/include/node",
+                "/usr/include/x86_64-linux-gnu"
+            ],
+            "defines": [
+                "_DEBUG",
+                "PART_TM4C123GH6PM"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c99",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

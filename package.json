@@ -10,7 +10,7 @@
     "clang-format": "^1.4.0"
   },
   "scripts": {
-    "test": "node hello.js",
+    "test": "node test.js",
     "format": "clang-format  -i --glob=*/**/*.{h,cpp,cc}"
   },
   "gypfile": true
